@@ -1,6 +1,8 @@
-const sum = (a , b) => {
+require() /module.exports
+
+const sum = (a, b) => {
     return a + b
-}
+};
 
 const sub = (c, d) => {
     return c - d
@@ -20,11 +22,6 @@ module.exports = {
     mult,
     divide
 }
-
-
-// const sum = (a, b) => {
-//     return a + b
-// };
 
 // const sum = (a, b) => {
 //     return a + b
